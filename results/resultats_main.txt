@@ -1,0 +1,69 @@
+=== Dataset iris (train size 120, test size 30, 4, features count: 4)
+Attention : le temps est fixé à 30s pour permettre de faire des tests rapides. N'hésitez pas à l'augmenter lors du calcul des résultats finaux que vous intégrerez à votre rapport.
+  D = 2
+    Univarié...         5.6s    gap 0.0%        Erreurs train/test 5/1
+    Multivarié...       0.8s    gap 0.0%        Erreurs train/test 1/3
+
+  D = 3
+    Univarié...         24.4s   gap 0.0%        Erreurs train/test 0/1
+    Multivarié...       1.0s    gap 0.0%        Erreurs train/test 0/0
+
+  D = 4
+    Univarié...         30.2s   gap 2.6%        Erreurs train/test 3/1
+    Multivarié...       12.8s   gap 0.0%        Erreurs train/test 0/1
+
+=== Dataset seeds (train size 168, test size 42, 6, features count: 6)
+Attention : le temps est fixé à 30s pour permettre de faire des tests rapides. N'hésitez pas à l'augmenter lors du calcul des résultats finaux que vous intégrerez à votre rapport.
+  D = 2
+    Univarié...         30.0s   gap 5.1%        Erreurs train/test 10/2
+    Multivarié...       0.8s    gap 0.0%        Erreurs train/test 0/1
+
+  D = 3
+    Univarié...         30.1s   gap 5.0%        Erreurs train/test 8/3
+    Multivarié...       5.2s    gap 0.0%        Erreurs train/test 0/0
+
+  D = 4
+    Univarié...         30.1s   gap 19.1%       Erreurs train/test 26/9
+    Multivarié...       29.2s   gap 0.0%        Erreurs train/test 0/4
+
+=== Dataset wine (train size 142, test size 36, 13, features count: 13)
+Attention : le temps est fixé à 30s pour permettre de faire des tests rapides. N'hésitez pas à l'augmenter lors du calcul des résultats finaux que vous intégrerez à votre rapport.
+  D = 2
+    Univarié...         24.9s   gap 0.0%        Erreurs train/test 5/2
+    Multivarié...       0.4s    gap 0.0%        Erreurs train/test 0/1
+
+  D = 3
+    Univarié...         29.9s   gap 0.0%        Erreurs train/test 0/3
+    Multivarié...       0.3s    gap 0.0%        Erreurs train/test 0/1
+
+  D = 4
+    Univarié...         30.2s   gap 2.2%        Erreurs train/test 2/3
+    Multivarié...       4.5s    gap 0.0%        Erreurs train/test 0/1
+
+=== Dataset new_data_1 (train size 80, test size 20, 6, features count: 6)
+Attention : le temps est fixé à 30s pour permettre de faire des tests rapides. N'hésitez pas à l'augmenter lors du calcul des résultats finaux que vous intégrerez à votre rapport.
+  D = 2
+    Univarié...         2.9s    gap 0.0%        Erreurs train/test 12/2
+    Multivarié...       18.5s   gap 0.0%        Erreurs train/test 4/5
+
+  D = 3
+    Univarié...         30.1s   gap 11.1%       Erreurs train/test 8/4
+    Multivarié...       9.9s    gap 0.0%        Erreurs train/test 0/7
+
+  D = 4
+    Univarié...         30.1s   gap 9.6%        Erreurs train/test 7/6
+    Multivarié...       8.1s    gap 0.0%        Erreurs train/test 0/5
+
+=== Dataset new_data_2 (train size 80, test size 20, 6, features count: 6)
+Attention : le temps est fixé à 30s pour permettre de faire des tests rapides. N'hésitez pas à l'augmenter lors du calcul des résultats finaux que vous intégrerez à votre rapport.
+  D = 2
+    Univarié...         30.0s   gap 21.6%       Erreurs train/test 25/3
+    Multivarié...       30.0s   gap 11.0%       Erreurs train/test 9/6
+
+  D = 3
+    Univarié...         30.0s   gap 23.1%       Erreurs train/test 15/6
+    Multivarié...       24.0s   gap 0.0%        Erreurs train/test 0/6
+
+  D = 4
+    Univarié...         30.1s   gap 35.6%       Erreurs train/test 21/10
+    Multivarié...       7.7s    gap 0.0%        Erreurs train/test 0/6
